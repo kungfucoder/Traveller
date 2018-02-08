@@ -31,10 +31,10 @@ print('Your base number is 10 for each ability. My gift is 7 points to distribut
 giftedStats = 0
 print('Which ability do you wish to raise?')
 
-print('strength, craft, or charisma? Enter \'1\' for strength, \'2\' for craft and, \'3\' for charisma')
 
 for giftedStats in range(7):
-     choice = input(['1', '2', '3'])
+     choice = input()
+     print('strength, craft, or charisma? Enter \'1\' for strength, \'2\' for craft and, \'3\' for charisma')
 
      if choice == '1':
           strength = strength + 1
