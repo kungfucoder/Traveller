@@ -10,6 +10,13 @@ craft = 10
 
 charisma = 10
 
+def virtualDie(roll):
+    roll = str(roll)
+    print('You rolled, ' + roll + '.')
+    roll = int(roll)
+    
+     return;
+
 print('Hello Traveller! What is your name?')
 
 name = input()
