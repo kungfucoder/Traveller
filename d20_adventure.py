@@ -11,7 +11,7 @@ craft = 10
 charisma = 10
 
 def virtualDie(roll):
-    random.randint(1,20)
+    roll = random.randint(1,20)
     roll = str(roll)
     print('You rolled, ' + roll + '.')
     roll = int(roll)
