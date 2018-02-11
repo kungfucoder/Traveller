@@ -1,7 +1,7 @@
 class playerClass():
 
     #holds information related to the character
-    def _init_(character,name,age):
+    def __init__(character,name,age):
 
         #sets the characters name and age
         character.name = name
