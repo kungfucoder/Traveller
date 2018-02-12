@@ -7,11 +7,18 @@ class playerClass():
         character.name = name
         character.age = age
 
+        print('Hello, ' + name.title() + ' good to meet you.')
+        
     def abilityScores(attribute,strength,craft,charisma):
 
-        attribute.strength = strength
-        attribute.craft = craft
-        attribute.charisma = charisma
+        attribute.strength = str(strength)
+        attribute.craft = str(craft)
+        attribute.charisma = str(charisma)
+
+        print('Your strength is, ' + strength + '.')
+        print('Your craft is, ' + craft + '.')
+        print('Your charisma is, ' + charisma + '.')
+
 
         def strengthSkills(bonus,intimidate,lift,climb):
 
@@ -31,7 +38,7 @@ class playerClass():
             bonus.deceive = deceive
             bonus.rally = rally
 
-        
 
+        myAttributes = abilityScores(12,16,13)
 
-    
+myCharacter = playerClass('James', 24)
